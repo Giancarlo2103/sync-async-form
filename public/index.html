@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="main.js"></script>
+		<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<form method="POST">
+	<p>
+		<label for="first_name">Nombre</label>
+		<input type="text" name="first_name" id="first_name" required  class="imput-text"/>
+	</p>
+
+	<p>
+		<label for="">Apellidos</label>
+		<input type="text" name="last_name" required  class="imput-text" id="last_name" />
+	<p>
+		<label for="">Sexo</label>
+		<input type="radio" name="gender" value="f" id="femenino" />
+		<label>femenino</label>
+		<input type="radio" name="gender" value="m" id="masculino" />
+		<label>masculino</label>
+	</p>
+
+	<p>
+		<label for="">intereses</label>
+		<input type="checkbox" name="interest" value="tecnologia" id="tecnologia" />
+		<label for="dev">tecnologia</label>
+		<input type="checkbox" name="interest" value="deportes" />
+		<label for="dev">deportes</label>
+		<input type="checkbox" name="interest" value="desarrollo" />
+		<label for="dev">desarrollo</label>
+	</p>
+
+		<input type="submit" value="registrar"/>
+	</form>
+</body>
+</html>
