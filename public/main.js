@@ -35,7 +35,9 @@ $(document).ready(function (){
             'interests' :interests,
             
         }
-        $.post('find.html',payload);
+        $.post('/find',payload);
+        $.get('/find',payload);
+
 
        
 
